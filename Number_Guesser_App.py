@@ -1,12 +1,13 @@
 import random
 
-# get user answer 5 times
+
 def number_guesser_game(chances,low,high):
         
         # set correct answer
         correct_answer=random.randrange(low,high)
-        print(correct_answer)
-         
+        
+        
+        # get user answer 5 times
         for _ in range(chances):
 
             print(f'Guess the number between {low} to {high}:',end="")
